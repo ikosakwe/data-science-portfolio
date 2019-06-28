@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C0467DC8-9136-B599-97F0-D7FAF2B0F1F5">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:06 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

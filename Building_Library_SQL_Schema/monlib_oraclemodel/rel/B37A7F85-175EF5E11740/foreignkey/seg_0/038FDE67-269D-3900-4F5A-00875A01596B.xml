@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="038FDE67-269D-3900-4F5A-00875A01596B" containerWithKeyObject="A018257D-F328-9C00-364D-5275196595B1" localFKIndex="1D1FD357-82DC-8FB6-75DD-21F0523CA6F1" name="BOOK_BOOK_AVAILABILITY_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>7BD564CF-B92D-8CFA-8E6A-7BBB753B188A</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<referredTableLongName>BOOK_AVAILABILITY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D47D628-A0C4-3748-DE04-49CBAE9A1F24</referredTableID>
+<keyObject>FF952AC5-E929-00D5-F61F-2287EF5B0270</keyObject>
+<referredKeyID>FF952AC5-E929-00D5-F61F-2287EF5B0270</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ava_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

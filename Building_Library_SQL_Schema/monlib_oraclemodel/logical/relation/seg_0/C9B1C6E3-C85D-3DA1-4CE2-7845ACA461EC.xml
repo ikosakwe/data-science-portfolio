@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="C9B1C6E3-C85D-3DA1-4CE2-7845ACA461EC">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>783D8655-DB9A-9A41-2648-79BDECA71DC2</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>for</nameOnSource>
+<nameOnTarget>reserved</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14222168-3CCE-5C09-6B40-10ACDB6F7638</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01051ADD-E6AD-C1D5-422A-C41FDA5A2926</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

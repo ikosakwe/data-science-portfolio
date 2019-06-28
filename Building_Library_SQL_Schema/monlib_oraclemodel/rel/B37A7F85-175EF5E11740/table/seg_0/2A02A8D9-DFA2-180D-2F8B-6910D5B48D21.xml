@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A02A8D9-DFA2-180D-2F8B-6910D5B48D21" name="IDENTIFIER">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>1B904B98-B896-79E2-B5CF-6C099DA32814</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn_code" id="6DEFC1CD-91EF-1388-CE77-9A01B57508BA">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>ISBN code </commentInRDBMS>
+<generatorID>D961DFE8-42DE-B1F3-6DFF-7A94B285D4CB</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_type" id="61BDFAA1-633D-16BC-0E1B-3C0348A8F532">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Book type. e.g. student edition, hardcover etc.</commentInRDBMS>
+<generatorID>0D9987E3-25F0-C023-226B-EE7250F873CD</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_callno" id="EA34D5A6-0245-0DDD-5FDF-68758F9BD05F">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s call number</commentInRDBMS>
+<generatorID>E690AEDA-ADC5-FCED-6476-93DE41F8B5B5</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABCBBE27-50BA-6590-763F-05599FB517E9" referredColumn="EEAE0830-C8C0-8F8E-E275-4FFA9897EE0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="020878E6-4A2E-2040-1DDC-C3E003E8C2CB" name="IDENTIFIER_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>EBCEC466-8B10-456A-AE1C-3F35EBA7B9B2</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEFC1CD-91EF-1388-CE77-9A01B57508BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="062B6925-27FD-0BC9-766E-74BBDF1256A2" name="IDENTIFIER_TITLE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>218DBE9D-E56A-2473-A060-7066C7FB2113</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA34D5A6-0245-0DDD-5FDF-68758F9BD05F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

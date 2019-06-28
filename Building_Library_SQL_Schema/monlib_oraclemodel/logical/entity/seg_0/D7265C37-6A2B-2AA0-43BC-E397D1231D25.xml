@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7265C37-6A2B-2AA0-43BC-E397D1231D25" name="MANAGER">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="man_code" id="2A3CCE52-EB4D-36D0-8314-0ED0514C4D5E">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s unique identifier</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>F6DED60A-8E3C-0F06-0D13-6632434569B7</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="man_firstname" id="C2921FEB-6C61-F2BE-CF5F-7EF4C69DEA10">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s first name</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>7994A06F-7D2D-BC8B-063F-C2DE89C4F95D</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="man_lastname" id="D15EA103-A7E7-80C4-E911-8F63ED3D5A32">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s last name. Managers with one name should enter value here.</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>CD92961B-25AD-02F3-9FE8-807D70A34E29</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_code" id="F3B4B227-ECF5-7FB6-9FD3-A5A27433B9F6">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s unique identifier. Sequence starts from 100.</commentInRDBMS>
+<generatorID>C24FC5AF-4B66-6D6D-57C5-4F9210A11714</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>944FF92B-D93A-2130-245B-22DF221AECF9</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>8802DBF2-C43F-1D36-99CA-9141E6E99140</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED661085-D6C8-FB44-58EE-4555F464A3DF" name="MANAGER PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A3CCE52-EB4D-36D0-8314-0ED0514C4D5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

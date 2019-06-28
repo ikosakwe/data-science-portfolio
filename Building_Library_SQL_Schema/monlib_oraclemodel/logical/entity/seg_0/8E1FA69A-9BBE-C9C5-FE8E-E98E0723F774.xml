@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E1FA69A-9BBE-C9C5-FE8E-E98E0723F774" name="BORROWER">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bor_id" id="ABEB0687-DC9F-4A57-AEC9-36038491BC66">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s unique identifier</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>38E1E2AD-1C78-69B6-BEDB-7C064A9D86FE</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bor_firstname" id="E22E05C7-24E5-680C-E6CC-DBFAE9EB9EB9">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s first name.</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>A9186502-5525-C9CA-A2FA-F4CB6371B0C0</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bor_lastname" id="497E1402-514B-5E3C-9CDC-760E8A2971F5">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s last name. Borrowers with one name should be entered here.</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>5F555045-BF53-4DEB-3FE1-849B7833765B</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bor_status" id="28F70A11-A3F4-6FDC-F039-61CEB16479B2">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s status flag. Either C for clean or F for flagged. Default value is C.</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>C76BB8CB-BDB8-F082-3DEF-D9F5CD716E2D</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<constraintName>chk_borstatus</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Borrower&apos;s status is clean and may borrow"/>
+<valueDef value="F" description="Borrower has been flagged and may not borrow"/>
+</listOfValues>
+<defaultValue>C</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bor_class" id="3730A762-252E-9219-B449-2130230BE97B">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s classification. J for Junior, A for Adult or O for Organization.</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>325E8199-7529-2334-FE45-DF00D358C5B3</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<constraintName>chk_borclass</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Adult"/>
+<valueDef value="J" description="Junior"/>
+<valueDef value="O" description="Organization"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_code" id="FB5BE664-75C8-1AB8-5336-DD5CD32137E9">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s unique identifier. Sequence starts from 100.</commentInRDBMS>
+<generatorID>D72C1A1B-1C19-BBCA-9BD2-0FBD8C39B042</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>CFD90C84-CE8C-B236-8125-DA846D8FCE9C</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>8802DBF2-C43F-1D36-99CA-9141E6E99140</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55FE145F-8189-2AED-7C18-18A0A6C08077" name="BORROWER PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABEB0687-DC9F-4A57-AEC9-36038491BC66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

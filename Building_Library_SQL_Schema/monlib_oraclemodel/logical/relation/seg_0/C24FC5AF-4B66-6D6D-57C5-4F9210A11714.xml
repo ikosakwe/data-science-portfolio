@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="man_has_home" directorySegmentName="seg_0" id="C24FC5AF-4B66-6D6D-57C5-4F9210A11714">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>68544885-9A81-66D7-9F4A-78C12ACB12EE</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has home in</nameOnSource>
+<nameOnTarget>homes</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4B7244A-6286-7E4B-993D-1E5BCD0EC166</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7265C37-6A2B-2AA0-43BC-E397D1231D25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

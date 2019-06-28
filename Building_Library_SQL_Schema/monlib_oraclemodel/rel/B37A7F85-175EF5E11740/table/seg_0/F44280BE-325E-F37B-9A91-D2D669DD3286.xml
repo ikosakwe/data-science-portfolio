@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F44280BE-325E-F37B-9A91-D2D669DD3286" name="SUBJECT">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>E12DD855-3743-E090-BD5F-D55865DF36CF</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sub_code" id="C040849E-BE2D-09AE-8403-5C8C56FFE94A">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Suject&apos;s unique identifier</commentInRDBMS>
+<generatorID>9D165215-72FB-B96A-BC49-7DAFA2B9C9F9</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>sub_code_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="sub_name" id="F5016A2F-5ADE-4639-08FD-1191FA6A3F1C">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Name of subject</commentInRDBMS>
+<generatorID>0E371212-E983-8B12-C416-166B00450AFD</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D507B9BC-EE86-1A89-AB81-63EC55FD53BE" name="SUBJECT_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>A7078552-450D-7289-7B50-2DC1E6E7FDA2</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C040849E-BE2D-09AE-8403-5C8C56FFE94A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

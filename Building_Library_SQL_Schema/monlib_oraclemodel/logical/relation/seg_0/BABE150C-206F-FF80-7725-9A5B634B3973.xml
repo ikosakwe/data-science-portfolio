@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="loan_cause_fin" directorySegmentName="seg_0" id="BABE150C-206F-FF80-7725-9A5B634B3973">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>ED00E68A-4EC6-99B5-F840-546940B3FDE8</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>caused by</nameOnSource>
+<nameOnTarget>can cause</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2169025F-F14A-0AC6-A1D9-734385F8C27A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1A72F892-4199-6C34-A813-01CE37EF5189</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

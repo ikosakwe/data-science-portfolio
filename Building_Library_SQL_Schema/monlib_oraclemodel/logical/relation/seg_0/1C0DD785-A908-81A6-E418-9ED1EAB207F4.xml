@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="auth_writes" directorySegmentName="seg_0" id="1C0DD785-A908-81A6-E418-9ED1EAB207F4">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>BA43089F-2086-88C0-F876-8FB0E61FE29A</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>shows</nameOnSource>
+<nameOnTarget>writes</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FD114A7-9B9A-0033-9C1F-A53064CC0D51</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>408CB838-C0DA-3D3D-DE7D-291079C09A98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

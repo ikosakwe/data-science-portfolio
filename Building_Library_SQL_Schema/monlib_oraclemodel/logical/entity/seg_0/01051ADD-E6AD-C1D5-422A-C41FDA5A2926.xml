@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01051ADD-E6AD-C1D5-422A-C41FDA5A2926" name="RESERVATION">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="res_no" id="837B2813-D5BF-8F22-638D-ADAB86DF5F68">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Reservation number. Surrogate Key</commentInRDBMS>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>0862C47A-0AC3-5ADD-9222-67C44A3A781E</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_date" id="01840D08-86E1-6A2D-28E8-BA94B78F8298">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>75486ED4-B694-48D3-FBAD-2F3C280B1B8F</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bor_id" id="8EDEE6F3-E353-923D-133C-CD74D3021158">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Borrower&apos;s unique identifier</commentInRDBMS>
+<generatorID>65940011-FEA4-2D9A-2C05-800241FA1116</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>F341D59D-51FD-84AA-B88F-5F5D0BF32535</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>ABEB0687-DC9F-4A57-AEC9-36038491BC66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_code" id="5F910468-2775-6C02-D7CB-57FA6AFA60B2">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Book&apos;s barcode</commentInRDBMS>
+<generatorID>C9B1C6E3-C85D-3DA1-4CE2-7845ACA461EC</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>139E2361-2B77-0501-6444-596D4F088969</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>9DD72C94-061A-86EF-23DC-38B24C738723</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AFA8310-24D4-2CE0-696A-A5E54E4E55A8" name="RESERVATION PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<comment>Reservation Number&lt;br/&gt;</comment>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>837B2813-D5BF-8F22-638D-ADAB86DF5F68</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3C7E7B56-8CD3-3D69-F01E-E0571DA20916" name="Key_2">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>8EDEE6F3-E353-923D-133C-CD74D3021158</attributeRef>
+<attributeRef>01840D08-86E1-6A2D-28E8-BA94B78F8298</attributeRef>
+<attributeRef>5F910468-2775-6C02-D7CB-57FA6AFA60B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

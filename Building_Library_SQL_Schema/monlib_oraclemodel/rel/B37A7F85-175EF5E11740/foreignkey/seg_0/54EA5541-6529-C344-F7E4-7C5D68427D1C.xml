@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54EA5541-6529-C344-F7E4-7C5D68427D1C" containerWithKeyObject="8426A19D-CFBB-283B-8CBA-70D3DBCC00D5" localFKIndex="1E633D9E-3870-2208-C769-B53829949960" name="RESERVATION_BOOK_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>C9B1C6E3-C85D-3DA1-4CE2-7845ACA461EC</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<referredTableLongName>BOOK</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>A018257D-F328-9C00-364D-5275196595B1</referredTableID>
+<keyObject>00852746-5047-F87C-1D9E-3BBBDB8DA017</keyObject>
+<referredKeyID>00852746-5047-F87C-1D9E-3BBBDB8DA017</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>book_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

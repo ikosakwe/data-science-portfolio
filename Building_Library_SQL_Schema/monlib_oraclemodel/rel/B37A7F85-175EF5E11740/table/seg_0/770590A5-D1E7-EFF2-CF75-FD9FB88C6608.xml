@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="770590A5-D1E7-EFF2-CF75-FD9FB88C6608" name="TITLE_AUTHOR">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>408CB838-C0DA-3D3D-DE7D-291079C09A98</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="auth_code" id="CD76ABEE-0E62-14A3-3035-D87CE90D80C6">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Author&apos;s unique identifier</commentInRDBMS>
+<generatorID>5FB86369-C54B-EDFF-9A27-A7A6C185103B</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4727A3-9DE2-C944-83E9-0DF98808863D" referredColumn="252F3B09-5B35-4E47-6065-2BABD79C00D3"/>
+</associations>
+</Column>
+<Column name="title_callno" id="5952709D-6BC9-00C6-0202-E0A542E6E009">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s call number</commentInRDBMS>
+<generatorID>ECACF750-9524-67EA-E791-8AD62B611378</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4931298B-4695-8E80-1FEF-D7DCE106827D" referredColumn="EEAE0830-C8C0-8F8E-E275-4FFA9897EE0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF21C25D-E5E1-96BA-95E0-8F929215A058" name="TITLE_AUTHOR_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>E1D29704-8FE5-B5A8-3C7E-47F284E916D2</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD76ABEE-0E62-14A3-3035-D87CE90D80C6"/>
+<colUsage columnID="5952709D-6BC9-00C6-0202-E0A542E6E009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FB1DF7D-960F-A9E9-EA40-4E3CBCF03646" name="TITLE_AUTHOR_AUTHOR_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>1C0DD785-A908-81A6-E418-9ED1EAB207F4</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD76ABEE-0E62-14A3-3035-D87CE90D80C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA49AD4-58D0-96D6-2BDA-5C1CEEF1F9C9" name="TITLE_AUTHOR_TITLE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>20224783-9B5A-26D8-1775-A04B0F50BCA3</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5952709D-6BC9-00C6-0202-E0A542E6E009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

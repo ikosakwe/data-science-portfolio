@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5E295F7-281F-D5CA-98BC-FAB8BCDC1805" name="FINE">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>1A72F892-4199-6C34-A813-01CE37EF5189</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="res_no" id="5C552492-1388-CC18-7C83-E66C466AACBE">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Reservation number. Surrogate Key</commentInRDBMS>
+<generatorID>3AA16B14-3F35-80A1-C479-532A360B6CCF</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27115BFB-E39A-5125-A8C1-772D91873171" referredColumn="FBCDFBCA-5572-1D67-4374-886E7DB4A5C6"/>
+</associations>
+</Column>
+<Column name="fine_amtdue" id="030BC4FE-723A-4D64-6046-3A2F83B6B70C">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Amount due for fine.</commentInRDBMS>
+<generatorID>CA1C71AC-C1F3-EE46-3813-CEB81DF6A7A0</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fine_paydate" id="A9CDCAF4-723E-789F-1330-CB384F4C015C">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Payment date of fine</commentInRDBMS>
+<generatorID>6F71F4AC-A5A1-C090-A523-C12D7CCCEFD6</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A93D3FD-FF6A-A43D-A489-11B19E454927" name="FINE_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>0AE03F45-2FFE-6CD6-F123-38C4D34BE5F7</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C552492-1388-CC18-7C83-E66C466AACBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C490585-EDC9-9A3B-65DE-2FEAD867F064" name="FINE_LOANS_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>BABE150C-206F-FF80-7725-9A5B634B3973</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C552492-1388-CC18-7C83-E66C466AACBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

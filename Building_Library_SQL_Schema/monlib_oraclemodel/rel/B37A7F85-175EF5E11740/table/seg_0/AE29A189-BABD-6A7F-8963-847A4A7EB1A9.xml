@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE29A189-BABD-6A7F-8963-847A4A7EB1A9" name="MANAGER">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>D7265C37-6A2B-2AA0-43BC-E397D1231D25</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="man_code" id="B8261436-8B81-3A7C-92C3-D6C802ECAEF5">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s unique identifier</commentInRDBMS>
+<generatorID>2A3CCE52-EB4D-36D0-8314-0ED0514C4D5E</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>man_code_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="man_firstname" id="C905C99F-2B76-229D-E97C-50F36132E27E">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s first name</commentInRDBMS>
+<generatorID>C2921FEB-6C61-F2BE-CF5F-7EF4C69DEA10</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="man_lastname" id="9A4482A5-BE05-905A-7586-0485B6CBC48C">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s last name. Managers with one name should enter value here.</commentInRDBMS>
+<generatorID>D15EA103-A7E7-80C4-E911-8F63ED3D5A32</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lib_code" id="E0799026-75D3-00FE-15EB-5649522528C3">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s unique identifier. Sequence starts from 100.</commentInRDBMS>
+<generatorID>F3B4B227-ECF5-7FB6-9FD3-A5A27433B9F6</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17E55CDC-ED88-F871-928E-50E917CD5119" referredColumn="362F62A0-BCCD-DA50-5B03-82B69AD24159"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE055376-56D6-5A44-9863-8B3CF38049FF" name="MANAGER_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>ED661085-D6C8-FB44-58EE-4555F464A3DF</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8261436-8B81-3A7C-92C3-D6C802ECAEF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C746EB4F-B577-4376-60C6-0F14E66FAD37" name="MANAGER_LIBRARY_BRANCH_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>C24FC5AF-4B66-6D6D-57C5-4F9210A11714</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0799026-75D3-00FE-15EB-5649522528C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

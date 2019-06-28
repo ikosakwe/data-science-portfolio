@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A018257D-F328-9C00-364D-5275196595B1" name="BOOK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>14222168-3CCE-5C09-6B40-10ACDB6F7638</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_code" id="0D31EE96-2A7E-4E14-CB56-F6111D4526AD">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Book&apos;s barcode</commentInRDBMS>
+<generatorID>9DD72C94-061A-86EF-23DC-38B24C738723</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lib_code" id="6A5A1C99-B5CC-AFDB-6F89-0CF6DD54E7A3">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s unique identifier. Sequence starts from 100.</commentInRDBMS>
+<generatorID>B4CE1DFC-C98A-F340-F823-B931E60682CD</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98685095-644C-30BB-4541-6AAB175956EA" referredColumn="362F62A0-BCCD-DA50-5B03-82B69AD24159"/>
+</associations>
+</Column>
+<Column name="isbn_code" id="B1AD4444-9054-5B31-4F14-C7D6B4EAC539">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>ISBN code </commentInRDBMS>
+<generatorID>0ECA1C70-5EFA-907A-7050-91B55A65A1F8</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39A07C4E-74E1-653E-F573-2327DFA33CA6" referredColumn="6DEFC1CD-91EF-1388-CE77-9A01B57508BA"/>
+</associations>
+</Column>
+<Column name="ava_code" id="E6EA433B-5543-360C-05EE-2569C35319BC">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Availability&apos;s unique identifier</commentInRDBMS>
+<generatorID>0A388117-6C0D-1018-952E-9EF07321DA08</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="038FDE67-269D-3900-4F5A-00875A01596B" referredColumn="49770FD8-D1DF-4621-A3D1-DF4B8543A89C"/>
+</associations>
+</Column>
+<Column name="title_callno" id="3F012871-92B7-EFC2-1184-7E48DD50225B">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s call number</commentInRDBMS>
+<generatorID>BAF311BE-66B6-5E97-F3B3-7FB2C62CF268</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5462438-9726-D4A6-181D-AE9CF9ED2F6F" referredColumn="EEAE0830-C8C0-8F8E-E275-4FFA9897EE0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00852746-5047-F87C-1D9E-3BBBDB8DA017" name="BOOK_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>783D8655-DB9A-9A41-2648-79BDECA71DC2</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D31EE96-2A7E-4E14-CB56-F6111D4526AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D1FD357-82DC-8FB6-75DD-21F0523CA6F1" name="BOOK_BOOK_AVAILABILITY_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>7BD564CF-B92D-8CFA-8E6A-7BBB753B188A</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EA433B-5543-360C-05EE-2569C35319BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BD0DE42-5F54-6FB2-45E3-5D8A82DFE35C" name="BOOK_IDENTIFIER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>DAD4A3DE-A03D-880F-7B93-5B3E91F1CDDD</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1AD4444-9054-5B31-4F14-C7D6B4EAC539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="156B3EC2-B425-A0AC-B159-E175EE4BCACC" name="BOOK_LIBRARY_BRANCH_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>C09D1303-3F43-FE87-35D5-FFE5A1778D4D</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5A1C99-B5CC-AFDB-6F89-0CF6DD54E7A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51198198-81E8-17AD-3BD4-DC9047D7EC46" name="BOOK_TITLE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>88D92D1D-461C-8C52-B34B-A9FD17A0E89D</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F012871-92B7-EFC2-1184-7E48DD50225B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

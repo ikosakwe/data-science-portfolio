@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .svgCanvas {
+            border: 1px
+        }
+    </style>
+    <style>
+        .activeradar {
+            stroke: #000;
+            stroke-width: 2px;
+        }
+    </style>
+    <style>
+      .activeerabtn {
+          fill: #FF4500;
+      }
+      .activeeratxt {
+          fill: #fff;
+      }
+  </style>
+    <style>
+        body {
+            background-color: #333339
+        }
+    </style>
+</head>
+<div class="radarChart"></div>
+
+</div>
+
+<body>
+    <div id="chart" align="center">
+
+        <form id="app-cover">
+            <div id="select-box">
+                <input type="checkbox" id="options-view-button">
+                <div id="select-button" class="brd">
+                    <div id="selected-value">
+                        <span>Select a Position</span>
+                    </div>
+                    <div id="chevrons">
+                        <i class="fas fa-chevron-up"></i>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div id="options">
+                    <div class="option">
+                        <input class="s-c top" type="radio" name="platform" value="PG">
+                        <input class="s-c bottom" type="radio" name="platform" value="PG">
+                        <i class="fab fa-pg"></i>
+                        <span class="label">Point Guard</span>
+                        <span class="opt-val">Point Guard</span>
+                    </div>
+                    <div class="option">
+                        <input class="s-c top" type="radio" name="platform" value="SG">
+                        <input class="s-c bottom" type="radio" name="platform" value="SG">
+                        <i class="fab fa-sg"></i>
+                        <span class="label">Shooting Guard</span>
+                        <span class="opt-val">Shooting Guard</span>
+                    </div>
+                    <div class="option">
+                        <input class="s-c top" type="radio" name="platform" value="SF">
+                        <input class="s-c bottom" type="radio" name="platform" value="SF">
+                        <i class="fab fa-sf"></i>
+                        <span class="label">Small Forward</span>
+                        <span class="opt-val">Small Forward</span>
+                    </div>
+                    <div class="option">
+                        <input class="s-c top" type="radio" name="platform" value="PF">
+                        <input class="s-c bottom" type="radio" name="platform" value="PF">
+                        <i class="fab fa-pf"></i>
+                        <span class="label">Power Forward</span>
+                        <span class="opt-val">Power Forward</span>
+                    </div>
+                    <div class="option">
+                        <input class="s-c top" type="radio" name="platform" value="C">
+                        <input class="s-c bottom" type="radio" name="platform" value="C">
+                        <i class="fab fa-c"></i>
+                        <span class="label">Center</span>
+                        <span class="opt-val">Center</span>
+                    </div>
+                    <div id="option-bg"></div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <svg>
+        <defs>
+            <marker
+              id="arrow"
+              markerUnits="strokeWidth"
+              markerWidth="12"
+              markerHeight="12"
+              viewBox="0 0 12 12"
+              refX="6"
+              refY="6"
+              orient="auto">
+              <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #f00;"></path>
+            </marker>
+          </defs>
+
+    </svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://localhost:8001/socket.io/socket.io.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Aldrich|Arima+Madurai|Arvo|Henny+Penny|Indie+Flower|Libre+Baskerville|Pirata+One|Poiret+One|Sancreek|Satisfy|Share+Tech+Mono|Smokum|Snowburst+One|Special+Elite"
+        rel="stylesheet">
+    <script src="./radarChart.js"></script>
+    <script src="./slider.js"></script>
+    <script src="welcome.js"></script>
+    <script src="client.js"></script>
+    <button id = "button" class="button" type="button" onclick=renderPredictor()>EXPLORE --></button>
+
+
+  </body>
+</html>

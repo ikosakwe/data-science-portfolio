@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B23465E3-AFE4-216E-4139-100DFB1AAFF6" name="TITLE">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>AFAE4D38-0A4E-7FEA-094C-9C12B0BA1765</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title_callno" id="EEAE0830-C8C0-8F8E-E275-4FFA9897EE0A">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s call number</commentInRDBMS>
+<generatorID>A08A5A97-0A30-4C44-5B64-2123C0FF12ED</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_title" id="B4468AB4-DFC1-2578-1D2A-443BED71654F">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title of book</commentInRDBMS>
+<generatorID>5AC6C120-4052-F443-DFA8-FD9543EC49AF</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_descript" id="BB2DFD00-EF16-BBEB-CF4E-B45A076B5597">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Description of title</commentInRDBMS>
+<generatorID>780F406E-7FE4-FD48-F34B-B9B418A04A48</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_pubyear" id="B8CC6144-497B-19AE-0E66-70CC9F1BC7C2">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s publication year</commentInRDBMS>
+<generatorID>93EC7A72-7551-1D41-24B1-22C81B899147</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_pageno" id="45B64F2D-1E2A-6520-57CC-BAC83F8C9296">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Number of pages in title.</commentInRDBMS>
+<generatorID>1169E9A2-36D5-E530-BBEA-C9673FBA6F73</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<constraintName>chk_pageno</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_class" id="6CB06F67-C891-31BA-3071-8DF5EA998B55">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s classification. F for fiction or R for reference.</commentInRDBMS>
+<generatorID>92F399BB-3A22-C0DA-51AE-491B97718B3D</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<constraintName>chk_title_class</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Fiction"/>
+<valueDef value="R" description="Reference"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_readability" id="0ECB7CD2-8D88-21AE-FBD3-31502D6B1E63">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title readability. For fiction ranges from 1 to 30. For Reference leave Null.</commentInRDBMS>
+<generatorID>A06FDEB5-2357-9E22-9B50-1E7CF3506D78</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<constraintName>chk_title_readability</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="title_readability&gt;0 and &lt;=30 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_price" id="2F89A919-3603-7AB8-A152-0744C17CF679">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Title&apos;s purchase price</commentInRDBMS>
+<generatorID>6CDF5705-9D59-1B23-68EC-B7C738E29C80</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pub_code" id="8356EB8C-0F5F-542C-E296-503B3D36E9C2">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Publisher&apos;s unique identifier</commentInRDBMS>
+<generatorID>BC6C9D2D-0FDA-3B6D-9A50-CD0649FE0B42</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="205AEBDB-EBB9-53E3-17D3-1A1E8144B9EC" referredColumn="4EF7B526-AE43-6680-AE1B-3661CCD5A595"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48CEA41A-7D83-FAD1-7E0A-ABB40D637683" name="TITLE_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>87FF2315-A715-410E-61A4-1E059A378E30</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEAE0830-C8C0-8F8E-E275-4FFA9897EE0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73E866FF-BD82-C9AD-0A41-46EEEC84817B" name="TITLE_PUBLISHER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>1A13B6B7-71B7-70D4-0F81-2733ABAEDA34</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8356EB8C-0F5F-542C-E296-503B3D36E9C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

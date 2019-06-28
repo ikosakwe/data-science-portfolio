@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bor_makes_res" directorySegmentName="seg_0" id="65940011-FEA4-2D9A-2C05-800241FA1116">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>55FE145F-8189-2AED-7C18-18A0A6C08077</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>is made by</nameOnSource>
+<nameOnTarget>makes</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E1FA69A-9BBE-C9C5-FE8E-E98E0723F774</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01051ADD-E6AD-C1D5-422A-C41FDA5A2926</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

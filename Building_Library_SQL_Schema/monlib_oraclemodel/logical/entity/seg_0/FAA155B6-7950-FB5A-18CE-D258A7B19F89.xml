@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAA155B6-7950-FB5A-18CE-D258A7B19F89" name="TITLE_SUBJECT">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sub_code" id="6630ECDC-7FC0-5FC6-B100-977F1FF18BBF">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Suject&apos;s unique identifier</commentInRDBMS>
+<generatorID>E2E1B3D5-FFD5-2C01-71D4-D6C913F1D49D</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>AC89371A-11C4-D1BE-6859-90DB6407B4C4</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>9D165215-72FB-B96A-BC49-7DAFA2B9C9F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title_callno" id="04C0DFF6-D075-D99D-985F-B14FFAF2692B">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<commentInRDBMS>Title&apos;s call number</commentInRDBMS>
+<generatorID>3360A65E-8D3B-1B63-514B-1B5E11D223BB</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<importedID>DBFECE6E-0FAA-0BD1-F552-209D501018EC</importedID>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<referedAttribute>A08A5A97-0A30-4C44-5B64-2123C0FF12ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECC8A28F-CDC4-E197-AEFB-62021C5F604C" name="TITLE_SUBJECT PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04C0DFF6-D075-D99D-985F-B14FFAF2692B</attributeRef>
+<attributeRef>6630ECDC-7FC0-5FC6-B100-977F1FF18BBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

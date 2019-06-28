@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="book_identifies" directorySegmentName="seg_0" id="DAD4A3DE-A03D-880F-7B93-5B3E91F1CDDD">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>EBCEC466-8B10-456A-AE1C-3F35EBA7B9B2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>identified with</nameOnSource>
+<nameOnTarget>identifies</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B904B98-B896-79E2-B5CF-6C099DA32814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14222168-3CCE-5C09-6B40-10ACDB6F7638</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

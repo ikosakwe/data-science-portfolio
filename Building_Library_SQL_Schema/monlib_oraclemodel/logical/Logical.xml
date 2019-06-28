@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="75FCF144-984C-52F8-519D-80CF33C24F42" mainViewID="493F09CF-7193-DDA5-A2D0-C73C1A191BF6">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:06 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

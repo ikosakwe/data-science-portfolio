@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A46A3B84-615E-00A9-2232-269208ADBE12" name="LIBRARY_BRANCH">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>F4B7244A-6286-7E4B-993D-1E5BCD0EC166</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lib_code" id="362F62A0-BCCD-DA50-5B03-82B69AD24159">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s unique identifier. Sequence starts from 100.</commentInRDBMS>
+<generatorID>8802DBF2-C43F-1D36-99CA-9141E6E99140</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>100</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>lib_code_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<notNullConstraintName>NNC_LIBRARY_BRANCH_lib_code</notNullConstraintName>
+</Column>
+<Column name="lib_name" id="8564A44A-3E5C-EE14-6DD4-CB0571F0E715">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Library branch&apos;s name.</commentInRDBMS>
+<generatorID>24A8910C-224E-901A-43BB-85474A3E5CB8</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LIBRARY_BRANCH_lib_name</notNullConstraintName>
+</Column>
+<Column name="lib_address" id="F7B2D578-8310-8C6D-63C5-2822212CCBB3">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Address of library branch</commentInRDBMS>
+<generatorID>40170A27-5066-48D6-F712-145488F5191E</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LIBRARY_BRANCH_lib_address</notNullConstraintName>
+</Column>
+<Column name="lib_phone" id="CDF475C9-A2AE-8A4C-832C-36BB8FD10B7E">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Phone number of library branch. </commentInRDBMS>
+<generatorID>9455898D-2DB0-F091-3A38-0F8EBA9C30BB</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LIBRARY_BRANCH_lib_phone</notNullConstraintName>
+</Column>
+<Column name="man_code" id="AA7BBF38-F6E5-0F4A-20DA-F564109FAB67">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<commentInRDBMS>Manager&apos;s unique identifier</commentInRDBMS>
+<generatorID>94D7CC10-A7CF-7288-6AF3-B8B5A1C8D888</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LIBRARY_BRANCH_man_code</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="3DCBFE34-371A-9CD2-1CF3-434A840455BB" referredColumn="B8261436-8B81-3A7C-92C3-D6C802ECAEF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4D07B9A-D2FF-E5F1-C012-63BE1502CDE1" name="LIBRARY_BRANCH_PK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>68544885-9A81-66D7-9F4A-78C12ACB12EE</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362F62A0-BCCD-DA50-5B03-82B69AD24159"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E9E45D1-FC3C-A6A4-DC36-A0E4E7E7840A" name="LIBRARY_BRANCH_MANAGER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 22:42:34 UTC</createdTime>
+<generatorID>1D809C60-0890-2B2F-D16B-0B65E2CC4808</generatorID>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7BBF38-F6E5-0F4A-20DA-F564109FAB67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

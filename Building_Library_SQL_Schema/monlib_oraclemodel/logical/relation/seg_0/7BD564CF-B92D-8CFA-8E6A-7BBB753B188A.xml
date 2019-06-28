@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="book_has_status" directorySegmentName="seg_0" id="7BD564CF-B92D-8CFA-8E6A-7BBB753B188A">
+<createdBy>USER</createdBy>
+<createdTime>2018-04-22 21:47:54 UTC</createdTime>
+<ownerDesignName>BACKUP NEW LAST</ownerDesignName>
+<engineerTo>
+<item key="B37A7F85-6753-8764-C48B-175EF5E11740" value="true"/>
+</engineerTo>
+<sourcePk>D15E2BAD-52D6-500C-749D-29FAF8500D20</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has status</nameOnSource>
+<nameOnTarget>is in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F35FFCE7-9F9B-A30E-645A-07A718D949B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14222168-3CCE-5C09-6B40-10ACDB6F7638</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
