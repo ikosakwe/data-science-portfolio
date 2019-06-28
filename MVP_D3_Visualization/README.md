@@ -37,7 +37,7 @@ $ npm run start-client
 Open the client running at: http://localhost:8080/
 
 
-![Screenshot](mvp_vis_usage.png)
+![Screenshot](./web_visualization/mvp_vis_usage.png)
 
 The user can then interact with the visualization by:
 
