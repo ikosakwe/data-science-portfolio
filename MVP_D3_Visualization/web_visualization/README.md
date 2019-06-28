@@ -33,9 +33,13 @@ Open the client running at: http://localhost:8080/
 ![Screenshot](mvp_vis_usage.png)
 
 The user can then interact with the visualization by:
-    • the sliders can be dragged and dropped to adjust the value
-    • the timeline buttons can be clicked on to choose a time period
-    • “Select a Position” can be clicked on, which exposes a dropdown list of the different basketball positions
-    • the radar chart can be drag and dropped along the to select any of the axis values.
+
+    * the sliders can be dragged and dropped to adjust the value
+  
+    * the timeline buttons can be clicked on to choose a time period
+    
+    * “Select a Position” can be clicked on, which exposes a dropdown list of the different basketball positions
+    
+    * the radar chart can be drag and dropped along the to select any of the axis values.
 
 
