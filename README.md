@@ -13,6 +13,8 @@ The contents have been categorized according to programming language.
 
 - [Designing a Complex Regular Expression to Parse a Large Text File](https://github.com/ikosakwe/data-science-portfolio/tree/master/Parsing_JobPostings)
 
+- [Data Cleansing Walkthrough of Postal Data](https://github.com/ikosakwe/data-science-portfolio/tree/master/Cleaning_Postal_Data_Python)
+
 ### R
 - [Feature Selection and Predicting Caravan Insurance with Lasso Regression](https://github.com/ikosakwe/data-science-portfolio/tree/master/Insurance_Prediction_Lasso_Regression_R)
 
