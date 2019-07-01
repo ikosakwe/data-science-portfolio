@@ -1,7 +1,7 @@
 # Data Science Portfolio
 
 ## Introduction
-This portfolio consists of some interesting projects I have taken on while undergoing a Master's of Data Science or as a personal project.
+This portfolio consists of some interesting projects I have taken on while undergoing a Master's of Data Science or as a personal hobby.
 
 ## Contents
 The contents have been categorized according to programming language.
