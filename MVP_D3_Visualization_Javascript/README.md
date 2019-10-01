@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The main objective of this visualization was to create a fun yet informative too to understand the statistics behind what makes the NBA’s best player. 
+The main objective of this visualization was to create a fun yet informative tool to understand the statistics behind what makes the NBA’s best player. 
 
-As a basketball fan myself, I thoroughly enjoyed both building and utilizing it. My goal is for fellow basketballs to peruse this tool for their pleasure.
+As a basketball fan myself, I thoroughly enjoyed both building and utilizing it. My goal is for fellow basketball fans to peruse this tool for their pleasure.
 
-The predictor can be used to explore the most important statistical factors in determining the NBA’s MVP; or, it can be used to assessed any player’s current or previous probability of being MVP given the statistics.
+The predictor can be used to explore the most important statistical factors in determining the NBA’s MVP; or, it can be used to assess any player’s current or previous probability of being MVP given the statistics.
 
 
 ## Folders
