@@ -9,7 +9,7 @@ The contents have been categorized according to programming language.
 ### Python
 - [Creating a Stream Processing Pipeline with Kafka and Spark](https://github.com/ikosakwe/data-science-portfolio/tree/master/Fire_Stream_Processing_Pipeline_Python)
 
-- [5-Way Yelp Sentiment Analysis with LSTM-CNN Neural Network](https://github.com/ikosakwe/data-science-portfolio/tree/master/Yelp_Sentiment_Analysis_With_Deep_Learning)
+- [5-Way Yelp Sentiment Analysis with LSTM-CNN Neural Network](https://github.com/ikosakwe/data-science-portfolio/tree/master/Yelp_Sentiment_Analysis_With_Deep_Learning_Python)
 
 - [Designing a Complex Regular Expression to Parse a Large Text File](https://github.com/ikosakwe/data-science-portfolio/tree/master/Parsing_JobPostings)
 
