@@ -1,7 +1,7 @@
 # Data Stream Clustering Analysis
 
 The purpose of this program is to monitors a server directory and dynamically build and update a K-Means clustering model as new data
-becomes available. 
+becomes available.  
 
 The accompanying k-means.scala script contains th implementation of the application in spark. The application requires 2-dimensional data.
 
